@@ -1,1 +1,11 @@
 Repositório cria para aplicações Java e casos de estudos
+
+Regras para criação de Pastas
+    1 - pastas criadas com PascalCase
+    >>> exemplo: 'PastaCriadaComPascalCase'
+
+    2 - arquivos criados com PascalCase
+    >>> exemplo: 'ArquivosTestePascalCase.ts'
+
+    3 - nomes de variáveis criados com camelCase
+    >>> exemplo: 'variavelCamelCase'
