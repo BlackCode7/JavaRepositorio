@@ -10,7 +10,7 @@ public class AdicioneContextoSignificativo {
 			number = "no";
 			verb = "are";
 			pluralMofifier = "s";
-		} else if( count == 1 ){
+		} else if( count == 1 ){ 
 			number = "1";
 			verb = "is";
 			pluralMofifier = "";
