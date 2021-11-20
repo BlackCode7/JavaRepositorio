@@ -4,14 +4,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
+@RestController()
 public class VendasApplication {
 
-    // https://github.com/cursodsousa/curso-spring-boot-especialista/tree/03_configuracoes_e_beans
+    // https://start.spring.io/
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter/2.2.4.RELEASE
     // https://github.com/cursodsousa/curso-spring-boot-especialista/tree/03_configuracoes_e_beans
     // Link para comparação de código
 
