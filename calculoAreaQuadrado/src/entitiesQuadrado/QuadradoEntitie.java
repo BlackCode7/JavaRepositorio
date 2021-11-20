@@ -9,6 +9,6 @@ public class QuadradoEntitie {
 	 *lados será a base (b) e o outro a altura (h). 
 	 */
 
-	public double l;
+	public double L;
 	
 }
