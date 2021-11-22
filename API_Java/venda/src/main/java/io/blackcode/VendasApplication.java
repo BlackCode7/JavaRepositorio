@@ -19,6 +19,7 @@ public class VendasApplication {
 
     @Autowired
     @Qualifier("applicationName")
+    //@Value("${application.name}") // caso não use a class bean
     private String applicationName;
 
     @GetMapping("/hello")
